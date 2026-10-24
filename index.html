@@ -37,16 +37,24 @@
                     <img class="w-11" src="images/Navbar/yt-logo.svg" alt="youtube">
                 </a>
                </div>
-               <!--tombol mobile-->
-               <button id="hamburger" class="lg:hidden flex items-center justify-center w-[48px] bg-[#4c1c0e] rounded-lg z-[60]">
 
+               <!--mobile navbar-->
+               <button id="hamburger" class="lg:hidden flex items-center justify-center w-[48px] h-[48px] bg-[#4c1c0e] rounded-lg z-[60]">
+                <img src="./images/Navbar/menu.svg" alt="menu button" class="h-[40px] w-[40]">
+                <img src="./images/Navbar/exit.svg" alt="exit button" class="hidden h-[40px] w-[40]">
                </button>
             </div>
         </nav>
+        <div id="mobilemenu" class="lg:hidden backdrop-filter backdrop-blur-md bg-opacity-40 fixed inset-0 translate-x-full z-[50] transition-transform duration-200 ease-in-out">
+            <ul class="flex flex-col items-center text-center py-6 text-white text-[2rem]">
+
+            </ul>
+        </div>
     </header>
 
     <!--EVERYTHING ELSE-->
     <main class="bg-[yellow] text-[green] text-center p-0 m-0">
+
         <!-- Section 1 - Hero -->
         <section id="hero" class="bg-[green] text-[yellow] text-center py-[100px]">
             <h1 class="font-zelda text-center text-[128px]">My Portofolio</h1>
